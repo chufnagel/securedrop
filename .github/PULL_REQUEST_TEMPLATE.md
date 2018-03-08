@@ -22,9 +22,11 @@ Any special considerations for deployment? Consider both:
 
 ## Checklist
 
-### If you made changes to the app code:
+### If you made changes to the code:
 
 - [ ] Unit and functional tests pass on the development VM
+- [ ] Added Python type annotations/hints in the Python code
+- [ ] **make lint** passes for the updated code.
 
 ### If you made changes to the system configuration:
 
